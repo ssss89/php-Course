@@ -1,0 +1,11 @@
+<?php 
+echo "Hello"."<br>" ;
+
+$a = 10;
+
+do{
+	echo $a .") Do statement" . "<br>";
+	$a--;
+}while($a>= 01)
+?>
+
