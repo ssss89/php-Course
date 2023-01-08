@@ -1,0 +1,42 @@
+<?php 
+
+
+echo "<h2 Style='background-image: linear-gradient(#96d67d, #7dd6cf);'> Welcome to techsonish</h2>";
+
+
+
+echo "<h2 Style='background-image: linear-gradient(#96d67d, #7dd6cf,#d67dba);'>Current Session is PHP IF Else Statement</h2>";
+
+$a = 19;
+$b = 20;
+$c =  50;
+
+if($c ==55){
+	echo "Hello";
+
+}else{
+echo "Sorry";
+}
+
+
+
+
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<ul>
+		<li>If statement</li>
+		<li>if else statement</li>
+		<li>if elseif statement</li>
+		<li>switch Statement</li>
+		<li>Nasted Statement</li>
+	</ul>
+</body>
+</html>
