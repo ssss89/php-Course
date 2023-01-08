@@ -1,0 +1,22 @@
+<?php 
+
+
+echo "<h2 Style='background-image: linear-gradient(#96d67d, #7dd6cf);'> Welcome to techsonish</h2>";
+
+
+
+echo "<h2 Style='background-image: linear-gradient(#96d67d, #7dd6cf,#d67dba);'>Current Session is Logical Operator</h2>";
+
+$a = 19;
+$b = 20;
+$c =  $a+2;
+//&& || ! and or xor
+
+if($a>18 || $a<12){
+	echo "<h2 Style='background-image: linear-gradient(#96d67d, #7dd6cf,#d67dba);'>".$c."</h2>";
+}else{
+	echo "<h2 Style='background-image: linear-gradient(#96d67d, #7dd6cf,#d67dba);'>sorry</h2>";
+}
+
+
+?>
