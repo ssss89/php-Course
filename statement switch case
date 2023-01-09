@@ -1,0 +1,65 @@
+<?php 
+
+
+echo "<h2 Style='background-image: linear-gradient(#96d67d, #7dd6cf);'> Welcome to techsonish</h2>";
+
+
+
+echo "<h2 Style='background-image: linear-gradient(#96d67d, #7dd6cf,#d67dba);'>Current Session is PHP switch Statement</h2>";
+
+$a = 11;
+$b = 20;
+$c =  50;
+
+switch ($a) {
+	case $a>10 && $a<12:
+		echo "Mon";
+		break;
+		case '2':
+		echo "Tue";
+		break;
+		case '3':
+		echo "wed";
+		break;
+		case '4':
+		echo "Thu";
+		break;
+		case '5':
+		echo "fri";
+		break;
+		case '6':
+		echo "sat";
+		break;
+		case '7':
+		echo "sun";
+		break;
+
+	
+	default:
+		echo "Please Enter valid Number";
+		break;
+}
+
+
+
+
+
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<ul>
+		<li>If statement</li>
+		<li>if else statement</li>
+		<li>if elseif statement</li>
+		<li>switch Statement</li>
+		<li>Nasted Statement</li>
+	</ul>
+</body>
+</html>
