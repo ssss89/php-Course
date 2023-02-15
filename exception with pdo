@@ -1,0 +1,17 @@
+<?php
+try{
+	$b = "mysql:host=localhost;dbname=pro;";
+$user = "root";
+$pass = "";
+$con = new PDO($b,$user,$pass);
+$sql = $con->prepare("select * from student");
+ $sql->execute();
+ $res = $sql->fetchAll(PDO::FETCH_ASSOC);
+
+ echo "<pre>";
+ print_r($res);
+}catch(PDOException $e){
+	echo $e->getmessage();
+
+}
+?>
