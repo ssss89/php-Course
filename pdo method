@@ -1,0 +1,26 @@
+<?php
+echo "hello";
+
+$dbname = "mysql:host=localhost;dbname=pro;";
+$username = "root";
+$pass = "";
+$conn = new PDO($dbname,$username,$pass);
+$user = "shivansh";//this is coloum value
+$sql =$conn->prepare("SELECT * FROM `signup` where username = :city "); 
+//? in bind value
+//$sql->bindParam(1,$user, PDO::PARAM_STR); // it's a php function for pdo method 1 is first serach value and $user in valriable where i have passed value if multiple parametre you want to search to baar baar bind karna hoga  
+$sql->execute(array(':city' => $user));
+
+echo $sql->rowCount();
+
+while($row = $sql->fetch(PDO::FETCH_OBJ)){
+    echo "<pre>";
+    print_r($row);
+    echo "</pre>";
+    //OBJ PRINT LIKE THAT
+    echo $row->name;
+}
+
+
+
+?>
